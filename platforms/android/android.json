@@ -1,0 +1,374 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" value=\"org.apache.cordova.statusbar.StatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Globalization\"><param name=\"android-package\" value=\"org.apache.cordova.globalization.Globalization\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SpinnerDialog\"><param name=\"android-package\" value=\"hu.dpal.phonegap.plugins.SpinnerDialog\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Toast\"><param name=\"android-package\" value=\"nl.xservices.plugins.Toast\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ActionSheet\"><param name=\"android-package\" value=\"nl.xservices.plugins.actionsheet.ActionSheet\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SocialSharing\"><param name=\"android-package\" value=\"nl.xservices.plugins.SocialSharing\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FacebookConnectPlugin\"><param name=\"android-package\" value=\"org.apache.cordova.facebook.ConnectPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://m.facebook.com\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://graph.facebook.com\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://api.facebook.com\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://*.fbcdn.net\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://*.akamaihd.net\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"LocationServices\"><param name=\"android-package\" value=\"fr.louisbl.cordova.locationservices.CordovaLocationServices\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Keyboard\"><param name=\"android-package\" value=\"io.ionic.keyboard.IonicKeyboard\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest": [],
+                    "application": [
+                        {
+                            "xml": "<meta-data android:name=\"com.facebook.sdk.ApplicationId\" android:value=\"@string/fb_app_id\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<meta-data android:name=\"com.facebook.sdk.ApplicationName\" android:value=\"@string/fb_app_name\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:configChanges=\"keyboard|keyboardHidden|screenLayout|screenSize|orientation\" android:label=\"@string/fb_app_name\" android:name=\"com.facebook.FacebookActivity\" android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Diagnostic\"><param name=\"android-package\" value=\"cordova.plugins.Diagnostic\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "res/values/facebookconnect.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<string name=\"fb_app_id\">1672049319742762</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"fb_app_name\">ArrelsApp</string>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "hu.dpal.phonegap.plugins.SpinnerDialog": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "nl.x-services.plugins.toast": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "nl.x-services.plugins.actionsheet": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "1672049319742762",
+            "APP_NAME": "ArrelsApp",
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova.plugins.diagnostic": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-locationservices": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-whitelist/whitelist.js",
+            "id": "cordova-plugin-whitelist.whitelist",
+            "pluginId": "cordova-plugin-whitelist",
+            "runs": true
+        },
+        {
+            "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+            "id": "cordova-plugin-statusbar.statusbar",
+            "pluginId": "cordova-plugin-statusbar",
+            "clobbers": [
+                "window.StatusBar"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-network-information/www/network.js",
+            "id": "cordova-plugin-network-information.network",
+            "pluginId": "cordova-plugin-network-information",
+            "clobbers": [
+                "navigator.connection",
+                "navigator.network.connection"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-network-information/www/Connection.js",
+            "id": "cordova-plugin-network-information.Connection",
+            "pluginId": "cordova-plugin-network-information",
+            "clobbers": [
+                "Connection"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-globalization/www/GlobalizationError.js",
+            "id": "cordova-plugin-globalization.GlobalizationError",
+            "pluginId": "cordova-plugin-globalization",
+            "clobbers": [
+                "window.GlobalizationError"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-globalization/www/globalization.js",
+            "id": "cordova-plugin-globalization.globalization",
+            "pluginId": "cordova-plugin-globalization",
+            "clobbers": [
+                "navigator.globalization"
+            ]
+        },
+        {
+            "file": "plugins/hu.dpal.phonegap.plugins.SpinnerDialog/www/spinner.js",
+            "id": "hu.dpal.phonegap.plugins.SpinnerDialog.SpinnerDialog",
+            "pluginId": "hu.dpal.phonegap.plugins.SpinnerDialog",
+            "merges": [
+                "window.plugins.spinnerDialog"
+            ]
+        },
+        {
+            "file": "plugins/nl.x-services.plugins.toast/www/Toast.js",
+            "id": "nl.x-services.plugins.toast.Toast",
+            "pluginId": "nl.x-services.plugins.toast",
+            "clobbers": [
+                "window.plugins.toast"
+            ]
+        },
+        {
+            "file": "plugins/nl.x-services.plugins.toast/test/tests.js",
+            "id": "nl.x-services.plugins.toast.tests",
+            "pluginId": "nl.x-services.plugins.toast"
+        },
+        {
+            "file": "plugins/nl.x-services.plugins.actionsheet/www/ActionSheet.js",
+            "id": "nl.x-services.plugins.actionsheet.ActionSheet",
+            "pluginId": "nl.x-services.plugins.actionsheet",
+            "clobbers": [
+                "window.plugins.actionsheet"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "id": "cordova-plugin-device.device",
+            "pluginId": "cordova-plugin-device",
+            "clobbers": [
+                "device"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
+            "id": "cordova-plugin-x-socialsharing.SocialSharing",
+            "clobbers": [
+                "window.plugins.socialsharing"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-facebook4/www/facebook-native.js",
+            "id": "cordova-plugin-facebook4.FacebookConnectPlugin",
+            "clobbers": [
+                "facebookConnectPlugin"
+            ]
+        },
+        {
+            "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.js",
+            "id": "cordova.plugins.diagnostic.Diagnostic",
+            "clobbers": [
+                "cordova.plugins.diagnostic"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-locationservices/www/Coordinates.js",
+            "id": "cordova-plugin-locationservices.Coordinates",
+            "clobbers": [
+                "cordova.plugins.locationServices.Coordinates",
+                "plugin.locationServices.Coordinates"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-locationservices/www/PositionError.js",
+            "id": "cordova-plugin-locationservices.PositionError",
+            "clobbers": [
+                "cordova.plugins.locationServices.PositionError",
+                "plugin.locationServices.PositionError"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-locationservices/www/Position.js",
+            "id": "cordova-plugin-locationservices.Position",
+            "clobbers": [
+                "cordova.plugins.locationServices.PositionError",
+                "plugin.locationServices.PositionError"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-locationservices/www/LocationServices.js",
+            "id": "cordova-plugin-locationservices.LocationServices",
+            "clobbers": [
+                "cordova.plugins.locationServices.geolocation",
+                "plugin.locationServices.geolocation"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+            "id": "cordova-plugin-inappbrowser.inappbrowser",
+            "clobbers": [
+                "cordova.InAppBrowser.open",
+                "window.open"
+            ]
+        },
+        {
+            "file": "plugins/ionic-plugin-keyboard/www/android/keyboard.js",
+            "id": "ionic-plugin-keyboard.keyboard",
+            "clobbers": [
+                "cordova.plugins.Keyboard"
+            ],
+            "runs": true
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-whitelist": "1.0.0",
+        "cordova-plugin-geolocation": "1.0.0",
+        "cordova-plugin-statusbar": "1.0.0",
+        "cordova-plugin-network-information": "1.0.0",
+        "cordova-plugin-globalization": "1.0.0",
+        "com.ionic.keyboard": "1.0.4",
+        "hu.dpal.phonegap.plugins.SpinnerDialog": "1.3.1",
+        "nl.x-services.plugins.toast": "2.0.4",
+        "cordova-plugin-inappbrowser": "1.0.1",
+        "cordova.plugins.diagnostic": "0.0.1",
+        "nl.x-services.plugins.actionsheet": "1.1.7",
+        "nl.x-services.plugins.socialsharing": "4.3.19",
+        "cordova-plugin-device": "1.0.1",
+        "cordova-plugin-locationservices": "1.1.0"
+    }
+}

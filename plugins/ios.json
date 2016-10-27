@@ -1,0 +1,59 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "1672049319742762",
+            "APP_NAME": "ArrelsApp",
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-locationservices": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "cordova.plugins.diagnostic": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "hu.dpal.phonegap.plugins.SpinnerDialog": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "nl.x-services.plugins.actionsheet": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "nl.x-services.plugins.toast": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.basetis.arrelsApp"
+        }
+    },
+    "dependent_plugins": {}
+}
